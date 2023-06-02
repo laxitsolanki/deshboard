@@ -1,0 +1,60 @@
+
+.view {
+    display: flex;
+    width: 100%;
+    align-items: start;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+
+.view p {
+    font-size: 19px;
+}
+
+.viewLeft {
+    width: 22%;
+    text-align: center;
+    padding: 20px 10px;
+    overflow-x: auto;
+    box-shadow: 0 0 2px 2px #efefef;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+
+.viewLeft img {
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.viewRight {
+    width: 78%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.addLeft {
+    width: 50%;
+}
+
+.sub_section {
+    border-bottom: 3px solid #efefef;
+}
+
+.addRight {
+    width: 50%;
+}
+
+
+@media (max-width:1353px) {
+    .view {
+        flex-direction: column;
+    }
+
+    .viewRight {
+        width: 100%;
+    }
+
+    .viewLeft {
+        width: 100%;
+    }
+}

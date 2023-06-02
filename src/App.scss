@@ -1,0 +1,18 @@
+/* .main {
+  display: flex;
+  height: 100%;
+}
+
+.main_left {
+  background-color: #0f172a;
+  width: 22%;
+}
+
+.main_right {
+  width:100%;
+} */
+
+@import url('./assets/scss/sidebar.scss');
+@import url('./assets/scss/dashboard.scss');
+@import url('./assets/scss/profile.scss');
+@import url('./assets//scss/verification.scss');
